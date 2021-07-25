@@ -1,3 +1,4 @@
+import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;
 import javafx.scene.layout.AnchorPane;
 
@@ -12,6 +13,9 @@ public class MainMENU {
 
     @FXML
     AnchorPane primaryContainer;
+
+    @FXML
+    JFXButton createLadderButton;
 
 
 
