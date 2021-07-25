@@ -20,7 +20,7 @@ public class Main extends Application {
         stage.setScene(scene);
 
         stage.setResizable(false);
-        stage.setTitle("Ladder Creator");
+        stage.setTitle("Bracket Creator");
 
         stage.show();
 

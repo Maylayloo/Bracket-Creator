@@ -15,7 +15,7 @@
             <Image url="@../images/mainMenuBackground.jpg" />
          </image>
       </ImageView>
-      <JFXButton fx:id="createLadderButton" buttonType="RAISED" layoutX="521.0" layoutY="308.0" prefHeight="59.0" prefWidth="239.0" ripplerFill="#6864641a" style="-fx-border-width: 3; -fx-border-color: black;" text="Create Ladder" textFill="#000000fd">
+      <JFXButton fx:id="createBracketButton" buttonType="RAISED" layoutX="521.0" layoutY="310.0" prefHeight="69.0" prefWidth="245.0" ripplerFill="#6864641a" style="-fx-border-width: 3; -fx-border-color: black;" text="Create Bracket" textFill="#000000fd">
          <font>
             <Font name="System Bold" size="29.0" />
          </font>
@@ -23,7 +23,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <JFXButton fx:id="aboutButton" buttonType="RAISED" layoutX="521.0" layoutY="453.0" prefHeight="59.0" prefWidth="239.0" ripplerFill="#68646408" style="-fx-border-width: 3; -fx-border-color: black;" text="About" textFill="#000000fd">
+      <JFXButton fx:id="aboutButton" buttonType="RAISED" layoutX="521.0" layoutY="451.0" prefHeight="59.0" prefWidth="245.0" ripplerFill="#68646408" style="-fx-border-width: 3; -fx-border-color: black;" text="About" textFill="#000000fd">
          <font>
             <Font name="System Bold" size="29.0" />
          </font>
@@ -31,7 +31,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
-      <JFXButton fx:id="licenseButton" buttonType="RAISED" layoutX="521.0" layoutY="539.0" prefHeight="59.0" prefWidth="239.0" ripplerFill="#68646408" style="-fx-border-width: 3; -fx-border-color: black;" text="License" textFill="#000000fd">
+      <JFXButton fx:id="licenseButton" buttonType="RAISED" layoutX="521.0" layoutY="533.0" prefHeight="59.0" prefWidth="245.0" ripplerFill="#68646408" style="-fx-border-width: 3; -fx-border-color: black;" text="License" textFill="#000000fd">
          <font>
             <Font name="System Bold" size="29.0" />
          </font>

@@ -17,7 +17,7 @@ public class MainMENU {
     AnchorPane primaryContainer;
 
     @FXML
-    JFXButton createLadderButton, aboutButton, licenseButton, returnButton;
+    JFXButton createBracketButton, aboutButton, licenseButton, returnButton;
 
     @FXML
     JFXTextArea license;
@@ -27,7 +27,7 @@ public class MainMENU {
     {
         primaryContainer.setStyle("-fx-background-image: url('/images/mainMenuBackground.jpg')");
 
-        new LicenseButtonOperation().clicked(licenseButton, aboutButton, createLadderButton, returnButton, license);
+        new LicenseButtonOperation().clicked(licenseButton, aboutButton, createBracketButton, returnButton, license);
     }
 
 
