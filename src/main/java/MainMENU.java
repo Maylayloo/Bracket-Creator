@@ -1,6 +1,7 @@
 import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;
 import javafx.scene.layout.AnchorPane;
+import mainMenuFeatures.LicenseButtonOperation;
 
 public class MainMENU {
 
@@ -22,6 +23,8 @@ public class MainMENU {
     public void initialize()
     {
         primaryContainer.setStyle("-fx-background-image: url('/images/mainMenuBackground.jpg')");
+
+        new LicenseButtonOperation().clicked(licenseButton);
     }
 
 
