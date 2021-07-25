@@ -15,7 +15,7 @@ public class MainMENU {
     AnchorPane primaryContainer;
 
     @FXML
-    JFXButton createLadderButton;
+    JFXButton createLadderButton, aboutButton, licenseButton;
 
 
 
