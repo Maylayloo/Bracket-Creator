@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -17,16 +18,25 @@
          <font>
             <Font name="System Bold" size="29.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </JFXButton>
       <JFXButton fx:id="aboutButton" buttonType="RAISED" layoutX="521.0" layoutY="453.0" prefHeight="59.0" prefWidth="239.0" ripplerFill="#68646408" style="-fx-border-width: 3; -fx-border-color: black;" text="About" textFill="#000000fd">
          <font>
             <Font name="System Bold" size="29.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </JFXButton>
       <JFXButton fx:id="licenseButton" buttonType="RAISED" layoutX="521.0" layoutY="539.0" prefHeight="59.0" prefWidth="239.0" ripplerFill="#68646408" style="-fx-border-width: 3; -fx-border-color: black;" text="License" textFill="#000000fd">
          <font>
             <Font name="System Bold" size="29.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </JFXButton>
    </children>
 </AnchorPane>
