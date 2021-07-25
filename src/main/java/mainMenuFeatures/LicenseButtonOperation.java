@@ -16,6 +16,8 @@ public class LicenseButtonOperation {
                 button3.setVisible(false);
                 license.setVisible(true);
                 returnButton.setVisible(true);
+
+                new ReturnButtonOperation().returnFromLicense(button, button2, button3, returnButton, license);
             };
 
             button.addEventHandler(MouseEvent.MOUSE_CLICKED, licenseButtonClicked);
