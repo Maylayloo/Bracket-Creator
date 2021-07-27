@@ -9,6 +9,7 @@ public class ReturnButtonOperation {
 
     public void returnFromLicense(JFXButton licenseButton, JFXButton aboutButton, JFXButton createButton, JFXButton returnButton, JFXTextArea license)
     {
+
         EventHandler<MouseEvent> rfl = e ->
         {
             createButton.setVisible(true);
@@ -16,6 +17,8 @@ public class ReturnButtonOperation {
             licenseButton.setVisible(true);
             license.setVisible(false);
             returnButton.setVisible(false);
+
+
         };
         returnButton.addEventHandler(MouseEvent.MOUSE_CLICKED, rfl);
     }

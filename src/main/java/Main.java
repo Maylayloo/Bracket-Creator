@@ -3,6 +3,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class Main extends Application {
     public static void main(String[] args) {
@@ -21,6 +22,7 @@ public class Main extends Application {
 
         stage.setResizable(false);
         stage.setTitle("Bracket Creator");
+
 
         stage.show();
 

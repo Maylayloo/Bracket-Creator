@@ -51,5 +51,10 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </JFXButton>
+      <JFXTextArea fx:id="about" editable="false" layoutX="326.0" layoutY="23.0" prefHeight="794.0" prefWidth="665.0" text="Come on, everyone knows what &quot;Bracket Creator&quot; means, just start by entering nicknames or team names and I will do the rest! Go play your tournament and GLHF!" visible="false">
+         <font>
+            <Font size="53.0" />
+         </font>
+      </JFXTextArea>
    </children>
 </AnchorPane>

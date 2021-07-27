@@ -20,7 +20,7 @@ public class MainMENU {
     JFXButton createBracketButton, aboutButton, licenseButton, returnButton;
 
     @FXML
-    JFXTextArea license;
+    JFXTextArea license, about;
 
 
     public void initialize()
@@ -28,6 +28,7 @@ public class MainMENU {
         primaryContainer.setStyle("-fx-background-image: url('/images/mainMenuBackground.jpg')");
 
         new LicenseButtonOperation().clicked(licenseButton, aboutButton, createBracketButton, returnButton, license);
+        new AboutButtonOperation().clicked(aboutButton, licenseButton, createBracketButton, returnButton, about);
     }
 
 
