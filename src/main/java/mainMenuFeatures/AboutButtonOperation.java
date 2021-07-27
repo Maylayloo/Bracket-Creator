@@ -1,6 +1,8 @@
+package mainMenuFeatures;
+
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextArea;
-import mainMenuFeatures.LicenseButtonOperation;
+
 
 public class AboutButtonOperation {
 
