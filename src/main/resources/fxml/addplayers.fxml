@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="primaryContainer" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-image: ..\images\mainMenuBackground.jpg;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AddPlayersController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1292.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/mainMenuBackground.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
