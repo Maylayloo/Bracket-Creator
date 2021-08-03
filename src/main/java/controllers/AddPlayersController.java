@@ -2,16 +2,13 @@ package controllers;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
-import com.sun.javafx.scene.control.skin.FXVK;
 import javafx.fxml.FXML;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
 import variables.ArrayNicknames;
 import variables.NicknamesArrayIndex;
-import variables.StartingLayoutXNicknamesButtonsArray;
-import variables.StartingLayoutYNicknamesButtonsArray;
+import variables.StartingLayoutNicknamesButtonsArray;
 
-import java.util.ArrayList;
 
 public class AddPlayersController {
 
@@ -33,7 +30,9 @@ public class AddPlayersController {
 
     public void initialize()
     {
+        getNicknamesTextField.setStyle("-fx-prompt-text-fill: #e9eaf0; -fx-text-inner-color: white");
         primaryContainer.setStyle("-fx-background-image: url('/images/mainMenuBackground.jpg')");
+        getNicknamesTextField.setPromptText("Nickname / Team Name");
 
 
 
@@ -50,8 +49,8 @@ public class AddPlayersController {
            primaryContainer.getChildren().add(ArrayNicknames.nicknames.get(NicknamesArrayIndex.index));
 
 
-           ArrayNicknames.nicknames.get(NicknamesArrayIndex.index).setLayoutX(StartingLayoutXNicknamesButtonsArray.layoutX);
-           ArrayNicknames.nicknames.get(NicknamesArrayIndex.index).setLayoutY(StartingLayoutYNicknamesButtonsArray.layoutY);
+           ArrayNicknames.nicknames.get(NicknamesArrayIndex.index).setLayoutX(StartingLayoutNicknamesButtonsArray.layoutX);
+           ArrayNicknames.nicknames.get(NicknamesArrayIndex.index).setLayoutY(StartingLayoutNicknamesButtonsArray.layoutY);
            ArrayNicknames.nicknames.get(NicknamesArrayIndex.index).setPrefSize(212, 37);
            ArrayNicknames.nicknames.get(NicknamesArrayIndex.index).setRipplerFill(Paint.valueOf("#e9eaf0"));
 
@@ -60,14 +59,14 @@ public class AddPlayersController {
 
 
            NicknamesArrayIndex.index += 1;
-           StartingLayoutXNicknamesButtonsArray.layoutX += 250;
+           StartingLayoutNicknamesButtonsArray.layoutX += 250;
 
 
 
            if (ArrayNicknames.nicknames.size() % 5 == 0)
            {
-               StartingLayoutYNicknamesButtonsArray.layoutY += 60;
-               StartingLayoutXNicknamesButtonsArray.layoutX = 32;
+               StartingLayoutNicknamesButtonsArray.layoutY += 60;
+               StartingLayoutNicknamesButtonsArray.layoutX = 32;
            }
 
            if (ArrayNicknames.nicknames.size() == 45)
