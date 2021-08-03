@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="primaryContainer" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-image: ..\images\mainMenuBackground.jpg;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddPlayersController">
    <children>
@@ -11,5 +14,15 @@
             <Image url="@../images/mainMenuBackground.jpg" />
          </image>
       </ImageView>
+      <JFXTextField fx:id="getNicknamesTextField" focusColor="WHITE" layoutX="489.0" layoutY="29.0" prefHeight="44.0" prefWidth="302.0" style="-fx-text-inner-color: white;" unFocusColor="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="addButton" buttonType="RAISED" layoutX="578.0" layoutY="92.0" onAction="#add" prefHeight="44.0" prefWidth="125.0" ripplerFill="WHITE" style="-fx-background-radius: 20;" text="ADD" textFill="#e1e1e1">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </JFXButton>
    </children>
 </AnchorPane>
