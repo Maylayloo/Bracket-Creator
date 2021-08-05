@@ -1,4 +1,4 @@
-package variables;
+package Arrays;
 
 import com.jfoenix.controls.JFXButton;
 

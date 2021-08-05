@@ -1,17 +1,12 @@
 package controllers;
 
 import AddingPlayersScreenFeatures.AddPlayers;
-import AddingPlayersScreenFeatures.SetNamesLayout;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.paint.Paint;
-import variables.ArrayNicknames;
-import variables.NicknamesArrayIndex;
-import variables.StartingLayoutNicknamesButtonsArray;
 
 
 public class AddPlayersController {
@@ -37,6 +32,8 @@ public class AddPlayersController {
         getNicknamesTextField.setStyle("-fx-prompt-text-fill: #e9eaf0; -fx-text-inner-color: white");
         primaryContainer.setStyle("-fx-background-image: url('/images/mainMenuBackground.jpg')");
         getNicknamesTextField.setPromptText("Nickname / Team Name");
+
+
 
 
         EventHandler<MouseEvent> handler = e ->

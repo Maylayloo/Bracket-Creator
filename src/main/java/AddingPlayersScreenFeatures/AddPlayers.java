@@ -4,7 +4,7 @@ import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
-import variables.ArrayNicknames;
+import Arrays.ArrayNicknames;
 import variables.NicknamesArrayIndex;
 import variables.StartingLayoutNicknamesButtonsArray;
 
