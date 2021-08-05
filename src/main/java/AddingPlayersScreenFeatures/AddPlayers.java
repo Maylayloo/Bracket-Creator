@@ -17,15 +17,18 @@ public class AddPlayers {
         if (txtField.getText() == null)
         {
             System.out.println("not happening bro");
+            txtField.setText(null);
         }
 
         else if (txtField.getText().length() > 16)
         {
             System.out.println("not happening bro");
+            txtField.setText(null);
         }
         else if (txtField.getText().startsWith(" "))
         {
             System.out.println("not happening bro");
+            txtField.setText(null);
         }
        else
        {
