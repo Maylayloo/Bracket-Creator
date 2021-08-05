@@ -1,6 +1,7 @@
 package controllers;
 
 import AddingPlayersScreenFeatures.AddPlayers;
+import Arrays.ArrayGettingNicknamesToString;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.EventHandler;
