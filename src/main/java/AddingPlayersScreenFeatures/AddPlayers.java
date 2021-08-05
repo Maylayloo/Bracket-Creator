@@ -19,6 +19,11 @@ public class AddPlayers {
        {
            System.out.println("not happening bro");
        }
+       else if (txtField.getText().length() > 16)
+       {
+           System.out.println("not happening bro");
+       }
+
        else
        {
            ArrayNicknames.nicknames.add(new JFXButton());
