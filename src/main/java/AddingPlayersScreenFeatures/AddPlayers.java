@@ -24,6 +24,7 @@ public class AddPlayers {
            System.out.println("not happening bro");
        }
 
+
        else
        {
            ArrayNicknames.nicknames.add(new JFXButton());
