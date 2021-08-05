@@ -11,20 +11,22 @@ import variables.StartingLayoutNicknamesButtonsArray;
 
 public class AddPlayers {
 
-    public void add(AnchorPane container, JFXTextField txtField, JFXButton b1)
-    {
+    public void add(AnchorPane container, JFXTextField txtField, JFXButton b1) {
 
 
-       if (txtField.getText() == null)
-       {
-           System.out.println("not happening bro");
-       }
-       else if (txtField.getText().length() > 16)
-       {
-           System.out.println("not happening bro");
-       }
+        if (txtField.getText() == null)
+        {
+            System.out.println("not happening bro");
+        }
 
-
+        else if (txtField.getText().length() > 16)
+        {
+            System.out.println("not happening bro");
+        }
+        else if (txtField.getText().startsWith(" "))
+        {
+            System.out.println("not happening bro");
+        }
        else
        {
            ArrayNicknames.nicknames.add(new JFXButton());
