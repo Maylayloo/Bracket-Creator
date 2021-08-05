@@ -30,6 +30,9 @@ public class AddPlayersController {
 
     public void initialize()
     {
+
+        getNicknamesTextField.setText(null);
+
         getNicknamesTextField.setStyle("-fx-prompt-text-fill: #e9eaf0; -fx-text-inner-color: white");
         primaryContainer.setStyle("-fx-background-image: url('/images/mainMenuBackground.jpg')");
         getNicknamesTextField.setPromptText("Nickname / Team Name");
@@ -41,7 +44,6 @@ public class AddPlayersController {
           new AddPlayers().add(primaryContainer, getNicknamesTextField, addButton);
 
         addButton.addEventHandler(MouseEvent.MOUSE_CLICKED, handler);
-
 
     }
 
