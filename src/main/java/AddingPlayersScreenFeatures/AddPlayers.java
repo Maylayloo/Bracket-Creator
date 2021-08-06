@@ -13,22 +13,24 @@ public class AddPlayers {
 
     public void add(AnchorPane container, JFXTextField txtField, JFXButton b1) {
 
+        txtField.setPromptText("Nickname / Team Name");
+
 
         if (txtField.getText() == null)
         {
-            System.out.println("not happening bro");
             txtField.setText(null);
+            txtField.setPromptText("Name can't be empty");
         }
 
         else if (txtField.getText().length() > 16)
         {
-            System.out.println("not happening bro");
             txtField.setText(null);
+            txtField.setPromptText("Name can be up to 16 characters");
         }
         else if (txtField.getText().startsWith(" "))
         {
-            System.out.println("not happening bro");
             txtField.setText(null);
+            txtField.setPromptText("Name cannot start with spacebars");
         }
        else
        {
