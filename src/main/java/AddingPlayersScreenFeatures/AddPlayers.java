@@ -17,21 +17,14 @@ public class AddPlayers {
 
 
         if (txtField.getText() == null)
-        {
-            txtField.setText(null);
-            txtField.setPromptText("Name can't be empty");
-        }
+            new ForbiddenNamesCondition().body(txtField, "Name can't be empty");
 
         else if (txtField.getText().length() > 16)
-        {
-            txtField.setText(null);
-            txtField.setPromptText("Name can be up to 16 characters");
-        }
+            new ForbiddenNamesCondition().body(txtField, "Name can be up to 16 characters");
+
         else if (txtField.getText().startsWith(" "))
-        {
-            txtField.setText(null);
-            txtField.setPromptText("Name cannot start with spacebars");
-        }
+            new ForbiddenNamesCondition().body(txtField, "Name cannot start with spacebars");
+
        else
        {
            ArrayNicknames.nicknames.add(new JFXButton());
