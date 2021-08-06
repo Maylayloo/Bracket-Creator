@@ -25,6 +25,9 @@ public class AddPlayers {
         else if (txtField.getText().startsWith(" "))
             new ForbiddenNamesCondition().body(txtField, "Name cannot start with spacebars");
 
+        else if (txtField.getText().endsWith(" "))
+            new ForbiddenNamesCondition().body(txtField, "Name cannot end with spacebars");
+
        else
        {
            ArrayNicknames.nicknames.add(new JFXButton());
